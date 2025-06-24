@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins';
+}
+
+body, html{
+  width: 100%;
+  height: 100%;
+  background: #000;
+  color: #fff;
+
+
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.custom-cursor {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff; 
+  pointer-events: none; 
+  transition: all linear 0.2s; 
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+
+
+
